@@ -1,0 +1,5 @@
+
+// Generated file. Do not edit.
+
+include 'android'
+project(':android').projectDir = file('.android')

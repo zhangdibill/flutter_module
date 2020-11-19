@@ -1,0 +1,8 @@
+
+class CarConstants {
+  static const url = "http://www.wanandroid.com/project/list/1/json?cid=1";
+//  static const detail_url = "https://cheapp.58.com/detailapi?spm=escand&infoId=39628306630440&bussiness_type=advert&page_id=null&slot_id=null&from=detail&xxzlsid=7eSm9N-OoF-LaU-REN-1ot69MAqd&xxzl_deviceid=cH7AjCTZFGmltZCo7hUbBr9tjl%2FmKFnKwdWyZ4kQ7nA8yEIExqGYH1oGMFDFMWcM&encode=&channelId=2468&transmission=%7B%22platform%22%3A2%2C%22pageId%22%3A%22%22%2C%22tid%22%3A%227055ecf0-db6f-40bb-ad17-d92bdecd27d4o1o1200000%22%7D&platform=APP_ANDROID&version=2.4.4&uid=862989035967299";
+  static const detail_url = "https://cheapp.58.com/detailapi?spm=escand&infoId=43916689143846&bussiness_type=advert&page_id=null&slot_id=null&from=detail&xxzlsid=91iGxd-Iwd-M9L-TFH-1wm7Xq8jk&xxzl_deviceid=xgsBQIpzMjzbw%2Bo%2FCnjopVhpZIlzu4kY4Vw4%2FbNmD99Rw49zFcVcqZvcOEX8TXmi&encode=&channelId=2474&transmission=%7B%22platform%22%3A2%2C%22pageId%22%3A%22%22%2C%22tid%22%3A%2243c64a1c-a15c-4ee8-b6ce-f5167dd9e0a1o1o1440000%22%7D&platform=APP_ANDROID&version=2.6.2&uid=861348047180790";
+
+//   "https://cheapp.58.com/detailapi?spm=escand&infoId=43916689143846&bussiness_type=advert&page_id=null&slot_id=null&from=detail&xxzlsid=91iGxd-Iwd-M9L-TFH-1wm7Xq8jk&xxzl_deviceid=xgsBQIpzMjzbw%2Bo%2FCnjopVhpZIlzu4kY4Vw4%2FbNmD99Rw49zFcVcqZvcOEX8TXmi&encode=&channelId=2474&transmission=%7B%22platform%22%3A2%2C%22pageId%22%3A%22%22%2C%22tid%22%3A%22becd4e76-b771-48a9-8e43-4325e4d906c7o1o1200000%22%7D&platform=APP_ANDROID&version=2.6.2&uid=861348047180790"
+}

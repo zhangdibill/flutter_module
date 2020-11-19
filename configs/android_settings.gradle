@@ -1,0 +1,8 @@
+// Generated file. Do not edit.
+include ':app'
+
+rootProject.name = 'android_generated'
+setBinding(new Binding([gradle: this]))
+evaluate(new File(settingsDir, 'include_flutter.groovy'))
+
+apply from: "../configs/setting_gradle_plugin.gradle"

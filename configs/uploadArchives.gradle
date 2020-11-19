@@ -1,0 +1,41 @@
+apply plugin: 'maven'
+
+final def localMaven = true //true: 发布到本地maven仓库， false： 发布到maven私服
+
+final def artGroupId = "com.esc.flutter"
+final def artVersion = "1.0.1"
+final def artifactId = "flutter-esc"
+
+final def mavenUrl = "http://10.181.xx.xx:8083/repository/repo/"
+final def mavenAccountName = "admin"
+final def mavenAccountPwd = "admin123"
+final def localRepo = "../../repo-local"
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            println "==maven url: ${artGroupId}:${artifactId}:${artVersion}"
+            println "==localMaven : ${localMaven}:${localRepo}"
+            if(localMaven) {
+                repository(url: uri(localRepo))
+            } else {
+                repository(url: mavenUrl) {
+                    authentication(userName: mavenAccountName, password: mavenAccountPwd)
+                }
+            }
+
+            pom.groupId = artGroupId
+            pom.artifactId = artifactId
+            pom.version = artVersion
+
+            pom.project {
+                licenses {
+                    license {
+                        name 'The Apache Software License, artVersion 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+            }
+        }
+    }
+}
